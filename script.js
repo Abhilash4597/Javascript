@@ -7,5 +7,5 @@
 // ! prompt("") is just like alert("") but it takes the input in alert box
 // * var yourName = prompt('what is your name?'); => the answer will be stored in variable
 
-//# Date-7/2/23
+//# Date-8/2/23
 
