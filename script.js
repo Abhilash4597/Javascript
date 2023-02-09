@@ -24,3 +24,12 @@ function Example(name,age,study,languages){
 let obj = new Example('Lucifer', 25, 'Graduated', ['English', 'Hindi']);
 
 
+// ! What Is DOM ? :-
+// ? Document Object Model is the structured representation of HTML Documents. Allows Javascript to access HTML Elements and styles to Manipulate them. In Simple words DOM is the connection point between HTML Documents and JS.
+//* |-> Manipulate means change the text,HTML attributes,and even CSS styles using JS.
+
+// todo :- In DOM, Document is the special Object that is the entry point to the DOM. (eg.-document.querySelector()).
+
+// ! NOTE :- DOM !== JAVASCRIPT
+
+// ! NOTE :- DOM is the part of WEB APIs (Application Programming Interface) and JS can interact with DOM . WEB APIs also have TIMERS,FETCH, and many more.
