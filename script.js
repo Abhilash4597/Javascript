@@ -1,7 +1,7 @@
 //# Date-6/2/23
 
 // ! NOTE
-// * if want to right the code in web page and see the output than follow the below step
+// * if want to right the code in web page or browser and see the output than follow the below step
 // * inspect => sources => arrow => snippets
 
 // ! prompt("") is just like alert("") but it takes the input in alert box
@@ -14,14 +14,14 @@
 // ? 'CONSTRUCTOR FUNCTION':- The starting letter of the function name is also capital which helps us to recognize that this function is constructor function. This function helps to initialise new object as many we want.
 // todo:- Example
 
-function Example(name,age,study,languages){
-  this.name = name;
-  this.age = age;
-  this.study = study;
-  this.languages = languages;
-}
+// function Example(name,age,study,languages){
+//   this.name = name;
+//   this.age = age;
+//   this.study = study;
+//   this.languages = languages;
+// }
 // ? => Initialising Object.
-let obj = new Example('Lucifer', 25, 'Graduated', ['English', 'Hindi']);
+// let obj = new Example('Lucifer', 25, 'Graduated', ['English', 'Hindi']);
 
 
 // ! What Is DOM ? :-
@@ -32,4 +32,10 @@ let obj = new Example('Lucifer', 25, 'Graduated', ['English', 'Hindi']);
 
 // ! NOTE :- DOM !== JAVASCRIPT
 
-// ! NOTE :- DOM is the part of WEB APIs (Application Programming Interface) and JS can interact with DOM . WEB APIs also have TIMERS,FETCH, and many more.
+//  #NOTE :- DOM is the part of WEB APIs (Application Programming Interface) and JS can interact with DOM . WEB APIs also have TIMERS,FETCH, and many more. WEB APIs means the functionalities provided to the engines,accessible on window object.
+
+// * COMPILATION:- Entire code is converted into machine code at once, ad written to a binary file that can be executed by a computer.
+// * INTERPRETATION:- Interpreter runs through the source code and executes it line by line.
+// ? JUST IN TIME (JIT) COMPILATION:- Entire code is coverted into machine code at once,then executed immediately.
+
+
