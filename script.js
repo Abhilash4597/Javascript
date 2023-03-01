@@ -85,10 +85,13 @@
 // ? API contains :-
 
 // * 1) Endpoint       :-> Endpoint tell us about the document that what type of document we are trying to access.
-                      // ? eg :- 
-// * 2) Paths          :-> 
-                      // ? eg :- 
-// * 3) Parameters     :-> 
-                      // ? eg :- 
+// *                    -> An endpoint is an   access point to send the HTTP requests to and get your response.
+                      // ? eg :-  https://v2.jokeapi.dev/joke/  [Category/Categories].
+// * 2) Path           :-> This is used to give the proper discription to the API about the details which we want.
+                      // ? eg :- https://v2.jokeapi.dev/joke/(Endpoint)  programming(this the path).
+// * 3) Parameters     :-> This is used to give the API the extra detail about the path and it is given after the (?) in end of API's.
+// *                    -> More than one parameters can also be given by using (&)and than add all the parameters.
+                      // ? eg :- https://v2.jokeapi.dev/joke/programming  ?contains=debugging(this is the parameters).
+                      // ?    :- https://v2.jokeapi.dev/joke/programming?contains=debugging  &type=single (more than one parameters).
 // * 4) Authentication :-> 
                       // ? eg :- 
