@@ -1,3 +1,6 @@
+// ! USEFULL EXTENSIONS:-
+// 1) JSON veiwer awesome.
+
 //# Date-6/2/23
 
 // ! NOTE
@@ -87,11 +90,23 @@
 // * 1) Endpoint       :-> Endpoint tell us about the document that what type of document we are trying to access.
 // *                    -> An endpoint is an   access point to send the HTTP requests to and get your response.
                       // ? eg :-  https://v2.jokeapi.dev/joke/  [Category/Categories].
+
 // * 2) Path           :-> This is used to give the proper discription to the API about the details which we want.
                       // ? eg :- https://v2.jokeapi.dev/joke/(Endpoint)  programming(this the path).
+
 // * 3) Parameters     :-> This is used to give the API the extra detail about the path and it is given after the (?) in end of API's.
 // *                    -> More than one parameters can also be given by using (&)and than add all the parameters.
                       // ? eg :- https://v2.jokeapi.dev/joke/programming  ?contains=debugging(this is the parameters).
                       // ?    :- https://v2.jokeapi.dev/joke/programming?contains=debugging  &type=single (more than one parameters).
-// * 4) Authentication :-> 
-                      // ? eg :- 
+
+// * 4) Authentication :-> The API's key which we get in Open Weather app is used as the authetication of the api from the main server.
+                      // ? eg :- https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&  appid={API key}(Authentication).
+
+
+//! API's Calling:-
+
+//                                                                 |->Requesting the data by adding the parameters as per client demand 
+              //?  ------GET REQUEST----------->            ------GET REQUEST----------->
+//* Client Browser                               Our Server          API CALL            Someone Else's Server
+              //?  <------RESPONSE--------------            <------RESPONSE--------------
+//                          |->DATA(HTML,CSS,JS)                     |->DATA(HTML,CSS,JS) 
