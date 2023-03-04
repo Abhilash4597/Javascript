@@ -9,8 +9,8 @@
 
 //#----------------------------------------------------------------------------------------------------------------------------------#//
 
-// ! prompt("") is just like alert("") but it takes the input in alert box
-// * var yourName = prompt('what is your name?'); => the answer will be stored in variable
+// ! prompt("") is just like alert("") but it takes the input in alert box.
+// * var yourName = prompt('what is your name?'); => the answer will be stored in variable.
 
 //#----------------------------------------------------------------------------------------------------------------------------------#//
 
@@ -55,11 +55,11 @@
 // ! What is HTTP ?
 // ? --> Hyper Text Transfer Protocol.
 // ? --> Communication between Web Servers & Clients.
-// ? --> It is used to Requesting <====> Responses
+// ? --> It is used to Requesting <====> Responses.
 
 // ! What is HTTPS ?
 // ? --> Hyper Text Transfer Protocol Secure.
-// ? --> Data sent is Encrypted
+// ? --> Data sent is Encrypted.
 
 // todo:--> HTTP METHODS:-
 // * ==> GET    :-> Retrieves data from the server.
@@ -88,7 +88,7 @@
 // ? API contains :-
 
 // * 1) Endpoint       :-> Endpoint tell us about the document that what type of document we are trying to access.
-// *                    -> An endpoint is an   access point to send the HTTP requests to and get your response.
+// *                    -> An endpoint is an access point to send the HTTP requests to and get your response.
                       // ? eg :-  https://v2.jokeapi.dev/joke/  [Category/Categories].
 
 // * 2) Path           :-> This is used to give the proper discription to the API about the details which we want.
@@ -110,3 +110,8 @@
 //* Client Browser                               Our Server          API CALL            Someone Else's Server
               //?  <------RESPONSE--------------            <------RESPONSE--------------
 //                          |->DATA(HTML,CSS,JS)                     |->DATA(HTML,CSS,JS) 
+
+
+
+//todo:- FORM VALIDATION IN JAVASCRIPT :-
+
