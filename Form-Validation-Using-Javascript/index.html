@@ -13,23 +13,30 @@
 <body>
   <h1>Practicing Form Validation</h1>
 
-  <form action="/Form-Validation-Using-Javascript/message.html">
-    <div class="input-div" id="name">
-      Name : <input type="text" name="fname"><span class="error">*Wrong Input</span>
+  <form onsubmit="return validate();" action="message.html">
+
+    <div class="input-div">
+      Name : <input type="text" id="name" name="fname" >
     </div>
-    <div class="input-div" id="email">
-      Email: <input type="email" name="femail"><span class="error">*Wrong Input</span>
+
+    <div class="input-div">
+      Email: <input type="email" id="email" name="femail" >
     </div>
-    <div class="input-div" id="password">
-      Password : <input type="password" name="fpassword"><span class="error">*Wrong Input</span>
+
+    <div class="input-div">
+      Password : <input type="password" id="password" name="fpassword" >
     </div>
-    <div class="input-div" id="cpassword">
-      Confirm Password : <input type="password" name="fcpassword"><span class="error">*Wrong Input</span>
+
+    <div class="input-div">
+      Confirm Password : <input type="password" id="cpassword" name="fcpassword" >
     </div>
-    <div class="input-div" id="phone">
-      Phone : <input type="phone" name="fphone"><span class="error">*Wrong Input</span>
+
+    <div class="input-div">
+      Phone : <input type="phone" name="fphone" >
     </div>
+
     <input type="submit" value="Submit" class="btn">
+    
   </form>
 
 </body>
