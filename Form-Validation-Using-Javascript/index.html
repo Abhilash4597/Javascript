@@ -13,30 +13,20 @@
 <body>
   <h1>Practicing Form Validation</h1>
 
-  <form onsubmit="return validate();" action="message.html">
+  <form action="message.html" onsubmit="return validate()">
 
-    <div class="input-div">
-      Name : <input type="text" id="name" name="fname" >
-    </div>
-
-    <div class="input-div">
-      Email: <input type="email" id="email" name="femail" >
-    </div>
-
-    <div class="input-div">
-      Password : <input type="password" id="password" name="fpassword" >
-    </div>
-
-    <div class="input-div">
-      Confirm Password : <input type="password" id="cpassword" name="fcpassword" >
-    </div>
-
-    <div class="input-div">
-      Phone : <input type="phone" name="fphone" >
-    </div>
-
-    <input type="submit" value="Submit" class="btn">
-    
+    Name : <input class="input-div" type="text" id="name" name="fname" required>
+    <br>
+    Email: <input type="email" class="input-div" id="email" name="femail" required>
+    <br>
+    Password : <input type="password" class="input-div" id="password" name="fpassword" required>
+    <br>
+    Confirm Password : <input type="password" class="input-div" id="cpassword" name="fcpassword" required>
+    <br>
+    Phone : <input type="phone" class="input-div" name="fphone" required>
+    <br>
+    <input type="submit" value="Submit" class="btn" required>
+    <br>
   </form>
 
 </body>
