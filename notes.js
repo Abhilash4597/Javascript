@@ -83,6 +83,7 @@
 
 
 // Todo :-=> API (Application Programming Interface) :-
+// * An API acts as a middleman between two applications, allowing them to communicate with each other in a structured way.
 // * It is a set of commands ,functions ,protocols ,and objects that programmers can use to create software or interect with an external system.
 
 // ? API contains :-
