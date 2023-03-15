@@ -3,6 +3,24 @@
 
 //# Date-6/2/23
 
+//? What is Internet?
+// * => The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols.
+
+// ? What is Browser?
+// * => A web browser is a software application that enables a user to access and display web pages or other online content through its graphical user interface.
+
+
+// ? What is DNS (Domain Name System)?
+//* => The Domain Name System (DNS) is the phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses so browsers can load Internet resources.
+
+// ? What is Domain Name ?
+// * => A domain name is a unique, easy-to-remember address used to access websites, such as ‘google.com’, and ‘facebook.com’. Users can connect to websites using domain names thanks to the Domain Name System (DNS).
+
+// ? What is Hosting ?
+// * => Web hosting is an online service that allows you to publish your website files onto the internet. So, anyone who has access to the internet has access to your website.
+
+
+
 // ! NOTE
 // * if want to right the code in web page or browser and see the output than follow the below step
 // * inspect => sources => arrow => snippets
