@@ -19,7 +19,20 @@
 // ? What is Hosting ?
 // * => Web hosting is an online service that allows you to publish your website files onto the internet. So, anyone who has access to the internet has access to your website.
 
+// Todo:- What is HTML ?
+// * => HTML stands for HyperText Markup Language. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript.
 
+// Todo:-
+// * =>
+
+// Todo:-
+// * =>
+
+// Todo:-
+// * =>
+
+// Todo:-
+// * =>
 
 // ! NOTE
 // * if want to right the code in web page or browser and see the output than follow the below step
