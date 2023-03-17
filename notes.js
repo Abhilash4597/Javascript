@@ -137,13 +137,46 @@
 
 //! API's Calling:-
 
-//                                                                 |->Requesting the data by adding the parameters as per client demand 
+//                                                                 |->Requesting the data by adding the parameters as per client demand
               //?  ------GET REQUEST----------->            ------GET REQUEST----------->
 //* Client Browser                               Our Server          API CALL            Someone Else's Server
               //?  <------RESPONSE--------------            <------RESPONSE--------------
-//                          |->DATA(HTML,CSS,JS)                     |->DATA(HTML,CSS,JS) 
+//                          |->DATA(HTML,CSS,JS)                     |->DATA(HTML,CSS,JS)
 
 
+//!----------------------------- JAVASCRIPT ------------------------------------------
 
-//todo:- FORM VALIDATION IN JAVASCRIPT :-
+//? How Javascript works?
+  // * Everthing in javascript happens inside an Execution context
+  // * Execution context is a big container in which whole javascript code is executed.
+  // * Executuion context containing two component
 
+
+// todo-----------------EXECUTION CONTEXT---------------------------
+    // * 1. Memmory/Variable Environment  2.Code/Thread of Execution
+    // *    key:value                       >>>........code
+    // *    a:10                            >>>........code
+    // *    f:{...}                         >>>........code
+//  todo ---------------EXECUTION CONTEXT---------------------------
+    
+// # Javascript is a synchronus single-threaded language.
+// -------------------------------------------------------------------------------------------------------------------------------------
+// ? How Javascript code is executed🤔? what is call stack💭?
+// * js code is executed line by line first it goes in memmory creation phase in that everything is undefine then second it goes inside
+// * code phase here everything is run and the value is assigned to the variable/function
+  
+// todo EXAMPLE:-----program to find out the square of number
+      // *  var n = 2;
+      // *  function square(num) {
+      // *    var ans = num * num ;
+      // *    return ans;
+      // *   }
+      // *   var square2 = square(n);
+      // *   var square4 = square(4);
+// todo ------------------------------------------------------
+
+// ?  Memory                               Code
+  // *  n:undefine--2--4                 ------------------------
+  // *  square:{....}                    |  Memory       code     
+  // *  square2:undefine-->4             |  num :2--4       >>...
+  // *  square4:undefine-->16            |  ans :4--16      >>..
