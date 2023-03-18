@@ -1,3 +1,14 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap'); */
+
 #title {
-  background-color: red;
+  background-color: #ff4c68;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  /* font-family: 'Ubuntu', sans-serif; */
 }
