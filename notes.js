@@ -225,3 +225,13 @@
 // *  }
 
 // ----------------------------------------------HOISTING------------------------------------
+
+// --------------------------------------------- UNDEFINE vs NOT DEFINED---------------------------------------------------
+  
+// # "undefined" indicates that a variable has been declared but not given a value, 
+// # while "not defined" indicates that a variable does not exist.
+
+    // * console.log(a);       //undefined
+    // * var a = 10;
+    // * console.log(a);       //10
+    // * console.log(x);      //not defined
