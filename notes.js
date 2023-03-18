@@ -9,7 +9,6 @@
 // ? What is Browser?
 // * => A web browser is a software application that enables a user to access and display web pages or other online content through its graphical user interface.
 
-
 // ? What is DNS (Domain Name System)?
 //* => The Domain Name System (DNS) is the phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses so browsers can load Internet resources.
 
@@ -112,7 +111,6 @@
 
 // * ==> (5xx): Server Error  :- Server failed to fulfil an apparent valid request. --> 500 - Internal server error.
 
-
 // Todo :-=> API (Application Programming Interface) :-
 // * An API acts as a middleman between two applications, allowing them to communicate with each other in a structured way.
 // * It is a set of commands ,functions ,protocols ,and objects that programmers can use to create software or interect with an external system.
@@ -121,70 +119,66 @@
 
 // * 1) Endpoint       :-> Endpoint tell us about the document that what type of document we are trying to access.
 // *                    -> An endpoint is an access point to send the HTTP requests to and get your response.
-                      // ? eg :-  https://v2.jokeapi.dev/joke/  [Category/Categories].
+// ? eg :-  https://v2.jokeapi.dev/joke/  [Category/Categories].
 
 // * 2) Path           :-> This is used to give the proper discription to the API about the details which we want.
-                      // ? eg :- https://v2.jokeapi.dev/joke/(Endpoint)  programming(this the path).
+// ? eg :- https://v2.jokeapi.dev/joke/(Endpoint)  programming(this the path).
 
 // * 3) Parameters     :-> This is used to give the API the extra detail about the path and it is given after the (?) in end of API's.
 // *                    -> More than one parameters can also be given by using (&)and than add all the parameters.
-                      // ? eg :- https://v2.jokeapi.dev/joke/programming  ?contains=debugging(this is the parameters).
-                      // ?    :- https://v2.jokeapi.dev/joke/programming?contains=debugging  &type=single (more than one parameters).
+// ? eg :- https://v2.jokeapi.dev/joke/programming  ?contains=debugging(this is the parameters).
+// ?    :- https://v2.jokeapi.dev/joke/programming?contains=debugging  &type=single (more than one parameters).
 
 // * 4) Authentication :-> The API's key which we get in Open Weather app is used as the authetication of the api from the main server.
-                      // ? eg :- https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&  appid={API key}(Authentication).
-
+// ? eg :- https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&  appid={API key}(Authentication).
 
 //! API's Calling:-
 
 //                                                                 |->Requesting the data by adding the parameters as per client demand
-              //?  ------GET REQUEST----------->            ------GET REQUEST----------->
+//?  ------GET REQUEST----------->            ------GET REQUEST----------->
 //* Client Browser                               Our Server          API CALL            Someone Else's Server
-              //?  <------RESPONSE--------------            <------RESPONSE--------------
+//?  <------RESPONSE--------------            <------RESPONSE--------------
 //                          |->DATA(HTML,CSS,JS)                     |->DATA(HTML,CSS,JS)
-
 
 //!----------------------------- JAVASCRIPT ------------------------------------------
 
 //? How Javascript works?
-  // * Everthing in javascript happens inside an Execution context
-  // * Execution context is a big container in which whole javascript code is executed.
-  // * Executuion context containing two component
-
+// * Everthing in javascript happens inside an Execution context
+// * Execution context is a big container in which whole javascript code is executed.
+// * Executuion context containing two component
 
 // todo-----------------EXECUTION CONTEXT---------------------------
-    // * 1. Memmory/Variable Environment  2.Code/Thread of Execution
-    // *    key:value                       >>>........code
-    // *    a:10                            >>>........code
-    // *    f:{...}                         >>>........code
+// * 1. Memmory/Variable Environment  2.Code/Thread of Execution
+// *    key:value                       >>>........code
+// *    a:10                            >>>........code
+// *    f:{...}                         >>>........code
 //  todo ---------------EXECUTION CONTEXT---------------------------
-    
+
 // # Javascript is a synchronus single-threaded language.
 // -------------------------------------------------------------------------------------------------------------------------------------
 // ? How Javascript code is executed🤔? what is call stack💭?
 // * js code is executed line by line first it goes in memmory creation phase in that everything is undefine then second it goes inside
 // * code phase here everything is run and the value is assigned to the variable/function
-  
+
 // todo EXAMPLE:-----program to find out the square of number
-      // *  var n = 2;
-      // *  function square(num) {
-      // *    var ans = num * num ;
-      // *    return ans;
-      // *   }
-      // *   var square2 = square(n);
-      // *   var square4 = square(4);
+// *  var n = 2;
+// *  function square(num) {
+// *    var ans = num * num ;
+// *    return ans;
+// *   }
+// *   var square2 = square(n);
+// *   var square4 = square(4);
 // todo ------------------------------------------------------
 
 // ?  Memory                               Code
-  // *  n:undefined--2--4                 ------------------------
-  // *  square:{....}                     |  Memory       code     
-  // *  square2:undefined-->4             |  num :2--4       >>...
-  // *  square4:undefined-->16            |  ans :4--16      >>..
-  
-  
+// *  n:undefined--2--4                 ------------------------
+// *  square:{....}                     |  Memory       code
+// *  square2:undefined-->4             |  num :2--4       >>...
+// *  square4:undefined-->16            |  ans :4--16      >>..
+
 // ----------------------------------------------CALLSTACK------------------------------------
 
-  // ? what is callStack ?
+// ? what is callStack ?
 // * The call stack is used by JavaScript to keep track of multiple function calls.
 // *       Example:-    function one() {
 // *                         two();
@@ -196,19 +190,17 @@
 // *                         console.log("call stack");
 // *                      }
 
-
-              // *  |      |     |      |    |three()|       |      |      |     |     |     |
-              // *  |      |     |two() |    |two()  |       |two() |      |     |     |     |
-              // *  | one()|     |one() |    |one()  |       |one() |      |one()|     |     |
-              // *  |------|     |------|    |-------|       |------|      |-----|     |-----|
+// *  |      |     |      |    |three()|       |      |      |     |     |     |
+// *  |      |     |two() |    |two()  |       |two() |      |     |     |     |
+// *  | one()|     |one() |    |one()  |       |one() |      |one()|     |     |
+// *  |------|     |------|    |-------|       |------|      |-----|     |-----|
 
 // ----------------------------------------------CALLSTACK------------------------------------
-
 
 // ----------------------------------------------HOISTING------------------------------------
 
 // ? what is Hoisting in javascript ?
-// * Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope (to the top of the 
+// * Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope (to the top of the
 // * current script or the current function).
 // * Variables defined with let and const are hoisted to the top of the block, but not initialized.
 
@@ -224,12 +216,12 @@
 // # javascript doesn't host the function expressions and arrow function
 // * function expression: name();
 // *                      var name = function() {
-  // *                        console.log("hello from function expression");
-  // *                       }
-  
-  // # Arrow function : name();
-  // *  var name = () => {
-    // *     console.log("hello from arrow function")
-    // *  }
-    
+// *                        console.log("hello from function expression");
+// *                       }
+
+// # Arrow function : name();
+// *  var name = () => {
+// *     console.log("hello from arrow function")
+// *  }
+
 // ----------------------------------------------HOISTING------------------------------------
