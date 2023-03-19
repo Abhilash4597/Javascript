@@ -114,7 +114,18 @@ p {
 }
 
 .testimonial-img {
-  width: 10%;
+  width: 15%;
   border-radius: 100%;
   margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 0px 20px 50px;
 }
