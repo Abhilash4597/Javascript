@@ -24,6 +24,13 @@ h1 {
   margin-top: 2rem;
 }
 
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
 h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
@@ -78,7 +85,7 @@ p {
 /* # features section */
 
 #features {
-  margin: 10% 9.9%;
+  padding: 10% 9.9%;
   background-color: #fff;
 }
 
@@ -95,4 +102,19 @@ p {
 
 .feature-icon:hover {
   color: #ff4c68;
+}
+
+/* # Testimonial section */
+
+#testimonials {
+  padding: 10% 9.9%;
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
 }
