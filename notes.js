@@ -265,3 +265,17 @@
 // * lecical scope and found that b is present and then it is printing b as 10 it becase of scoping.....😮‍💨
 
 // ---------------------------------------The Scope chain, Scope and Lexical Environment---------------------------------------
+
+// -----------------------------------What is Temporal Dead😵 Zone☠️----------------------------------------------------
+
+// * Temporal Dead Zone is the period of time during which the let and const declarations cannot be accessed.
+// * Temporal Dead Zone starts when the code execution enters the block which contains the let or const declaration and
+// * continues until the declaration has executed.
+
+// ? console.log(a); ---------------
+//                                 ? |temporal dead zone|
+// ? let a = 10;--------------------
+
+// ? var b = 100;
+
+// -----------------------------------What is Temporal Dead😵 Zone☠️----------------------------------------------------
