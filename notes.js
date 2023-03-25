@@ -279,3 +279,23 @@
 // ? var b = 100;
 
 // -----------------------------------What is Temporal Dead😵 Zone☠️----------------------------------------------------
+
+// ---------------------------------let and const declaration are hoisted🤔?------------------------------------------------
+
+// * Variables defined with let and const are hoisted to the top of the block, but not initialized.
+
+// * Meaning: The block of code is aware of the variable, but it cannot be used until it has been declared.
+
+// # Using a let variable before it is declared will result in a ReferenceError.
+
+// * The variable is in a "temporal dead zone" from the start of the block until it is declared:
+
+// ? console.log(a);   //reference error
+// ? let a = 10;
+
+// # const variable before it is declared, is a syntax error, so the code will simply not run.
+
+// ? console.log(b);   // syntax error
+// ? const b = 20;
+
+// ---------------------------------let and const declaration are hoisted🤔?------------------------------------------------
