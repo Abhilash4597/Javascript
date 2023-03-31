@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import StylePractice from './Components/StylePractice';
+import StylePractice from './Practice Components/StylePractice';
 
 
 import './App.css'
