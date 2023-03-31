@@ -1,10 +1,10 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import StylePractice from './Components/StylePractice';
+
 
 import './App.css'
 
 function App() {
-  // const [name, setName] = useState('Abhilash');
-  // const [year, setYear] = useState(2023);
   const name = 'Abhilash';
   const time = new Date();
   const year = time.getFullYear();
@@ -15,10 +15,13 @@ function App() {
     backgroundColor: 'black',
   };
   return (
-    <div className="App">
-      <p style={customCSS}>Created by {name}</p>
-      <p style={{ color: 'green' }}>Copyright {year}</p>
-    </div>
+    <>
+      <StylePractice></StylePractice>
+      <div className="App">
+        <p style={customCSS}>Created by {name}</p>
+        <p style={{ color: 'green' }}>Copyright {year}</p>
+      </div>
+    </>
   );
 }
 
