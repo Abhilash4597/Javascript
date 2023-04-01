@@ -13,13 +13,15 @@ function App() {
     color: 'red',
     fontSize: '2rem',
     backgroundColor: 'black',
-    border:'1px solid black'
+    border: '1px solid black',
   };
 
   return (
     <div className="App">
-      <p style={customCSS}>Created by {name}</p> //* make a obj of styling ad use it like this.
-      <p style={{ color:'green'}}>Copyright {year}</p> //* OR use like this directly 
+      <p style={customCSS}>Created by {name}</p> //* make a obj of styling ad
+      use it like this.
+      <p style={{ color: 'green' }}>Copyright {year}</p> //* OR use like this
+      directly
     </div>
   );
 }
@@ -47,5 +49,25 @@ function App() {
 
 // # PROPS
 
-// HTML Attributes   eg:- 
+//* HTML Attributes   eg:- <input
+//*                          type="text"
+//*                          id="input"
+//*                          className="input"
+//*                          value="abhilash@gmail.com"
+//*                          placeholder="Search"
+//*                        />;
 
+// ? React Props :- In react props we use the custom components and we can create as many properties or props and we can name them whatever we want and access them with the same name.
+
+//* Create :- <Card name="Abhilash" tel="1234567890" email="abhilash@gmail.com" />;
+//? Access :- function Card(props){
+//?             return (
+//?               <>
+//?                 <h2>{props.name}</h2>
+//?                 <p>{ props.tel }</p>
+//?                 <p>{ props.email }</p>
+//?               </>
+//?               )
+//?             }
+
+// -------------------------------------------------------------------------------------------------------------
