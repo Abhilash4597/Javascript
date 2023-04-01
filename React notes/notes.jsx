@@ -28,5 +28,24 @@ function App() {
 
 // * Make a new folder and do the styling as per id and className and import that app in that app where we want to use that styling. ( Eg:- import './App.css' )
 
-// #-------------------------------------------------------------------------------------------------------------
+// -------------------------------------------------------------------------------------------------------------
+
+// # Export - Import
+
+//? Only one export default for single element or function is valid for a single page.
+
+//!              Export                                                            Import
+
+//* export default app; ----------------------------------------------> import app from (proper path);
+//todo Note:- We can import the default export with any name (eg:- import anyName from (path));
+
+//? If we want to export more than one default export than it can be done as.
+//* export {app,function}; -------------------------------------------> import {app,function} from (proper path);
+// todo Note:- We have to use the same name as exported in imported statement.
+
+// -------------------------------------------------------------------------------------------------------------
+
+// # PROPS
+
+// HTML Attributes   eg:- 
 
