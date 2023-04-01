@@ -28,3 +28,5 @@ function App() {
 
 // * Make a new folder and do the styling as per id and className and import that app in that app where we want to use that styling. ( Eg:- import './App.css' )
 
+// #-------------------------------------------------------------------------------------------------------------
+
