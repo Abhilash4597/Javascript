@@ -71,3 +71,15 @@ function App() {
 //?             }
 
 // -------------------------------------------------------------------------------------------------------------
+
+// # Conditional Rendering
+
+// * It is used as a if else statement of JS but in react we have to use the Ternary Operator / And Operator(&&) / Or Operator(||).
+//? Eg:- <div>
+//?        { userExist ? <Login /> : <Register /> }
+//?      </div >
+
+// -------------------------------------------------------------------------------------------------------------
+
+// # State in React
+

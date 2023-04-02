@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Form() {
+export default function Register() {
   return (
     <form className="form">
       <input type="text" placeholder="Username" />
