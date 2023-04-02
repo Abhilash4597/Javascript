@@ -1,4 +1,5 @@
 import React from 'react'
+import '../Conditional.css';
 
 export default function Register() {
   return (
