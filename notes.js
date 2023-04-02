@@ -323,3 +323,31 @@
 // ! TypeError: Raised when the type of a variable is not as expected.
 
 // -------------------------------syntax error😤 VS reference error😤 VS type error--------------------------------------------
+
+// # Destructuring
+
+// const animals = [
+//   {
+//     name: 'cat',
+//     sound: 'meow',
+//     feedingRequirements: {
+//       food: 2,
+//       water: 3,
+//     },
+//   },
+//   { name: 'dog', sound: 'woof' },
+// ];
+
+//? Destructuring Arrays
+
+//* const [cat, dog] = animals;
+//* console.log(cat);
+
+
+//? Destructuring Objects
+
+//* const { name, sound } = cat;
+//* const { name: catName, sound: catSound } = cat;
+//* const { name = "Fluffy", sound = "Purr" } = cat;
+//* const { feedingRequirements: {food, water} } = cat;
+//* console.log(food);
