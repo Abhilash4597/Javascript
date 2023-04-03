@@ -1,5 +1,5 @@
 import React from 'react';
-import '../keeper.css';
+import './keeper.css';
 
 export default function Note({ data }) {
   return (

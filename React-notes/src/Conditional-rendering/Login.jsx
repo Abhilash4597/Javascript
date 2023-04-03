@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Conditional.css'
+import './Conditional.css'
 
 export default function Login() {
   return (

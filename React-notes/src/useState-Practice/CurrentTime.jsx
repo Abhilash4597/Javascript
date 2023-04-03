@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../useState.css';
+import './useState.css';
 
 export default function CurrentTime() {
   // # Current Time
