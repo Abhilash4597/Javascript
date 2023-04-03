@@ -11,22 +11,22 @@ export default function ComplexStatePractice() {
   });
 
   function handleContact(e) {
-    const {name, value} = e.target;
+    const { name, value } = e.target;
 
     setContact(preValue => {
-      if (name === "fName") {
+      if (name === 'fName') {
         return {
           fName: value,
           lName: preValue.lName,
           email: preValue.email,
         };
-      } else if (name === "lName") {
+      } else if (name === 'lName') {
         return {
           fName: preValue.fName,
           lName: value,
           email: preValue.email,
         };
-      } else if (name === "email") {
+      } else if (name === 'email') {
         return {
           fName: preValue.fName,
           lName: preValue.lName,
@@ -36,19 +36,17 @@ export default function ComplexStatePractice() {
     });
   }
 
-  // # On form submission 
+  // # On form submission
 
   function handleClick(e) {
-    e.preventDefault()
+    e.preventDefault();
     setFullName(contact.fName + ' ' + contact.lName);
     setEmail(contact.email);
   }
 
   return (
     <div className="container">
-      <h1>
-        Hello {fullName}
-      </h1>
+      <h1>Hello {fullName}</h1>
       <p>{email}</p>
       <form onSubmit={handleClick}>
         <input name="fName" placeholder="First Name" onChange={handleContact} />
