@@ -3,7 +3,8 @@ import React from 'react';
 // import Footer from './Keeper-App/Footer';
 // import Note from './Keeper-App/Note';
 // import data from './Keeper-App/Data';
-import HandleEvent from './Event-handling/HandleEvent';
+// import HandleEvent from './Event-handling/HandleEvent';
+import FormEvent from './Event-handling/FormEvent';
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
       {/* <Header />
       <Note data={ data } />
       <Footer /> */}
-      <HandleEvent />
+      {/* <HandleEvent /> */}
+      <FormEvent/>
     </>
   );
 }
