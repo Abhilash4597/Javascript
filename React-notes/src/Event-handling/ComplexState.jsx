@@ -48,14 +48,12 @@ export default function ComplexState() {
 
   function handleClick(e) {
     e.preventDefault();
-    setMainText(fullName.fname +' '+ fullName.lname)
+    setMainText(fullName.fname + ' ' + fullName.lname);
   }
 
   return (
     <div className="container">
-      <h1>
-        Hello {mainText}
-      </h1>
+      <h1>Hello {mainText}</h1>
       <form onSubmit={handleClick}>
         <input
           name="fname"
@@ -69,7 +67,7 @@ export default function ComplexState() {
           onChange={handleFullName}
           value={fullName.lname}
         />
-        <button>Submit</button>
+        <button type="submit">Submit</button>
       </form>
     </div>
   );
