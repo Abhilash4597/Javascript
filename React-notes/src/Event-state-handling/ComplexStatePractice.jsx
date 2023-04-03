@@ -10,32 +10,44 @@ export default function ComplexStatePractice() {
     email: '',
   });
 
+  // function handleContact(e) {
+  //   const { name, value } = e.target;
+
+  //   setContact(preValue => {
+  //     if (name === 'fName') {
+  //       return {
+  //         fName: value,
+  //         lName: preValue.lName,
+  //         email: preValue.email,
+  //       };
+  //     } else if (name === 'lName') {
+  //       return {
+  //         fName: preValue.fName,
+  //         lName: value,
+  //         email: preValue.email,
+  //       };
+  //     } else if (name === 'email') {
+  //       return {
+  //         fName: preValue.fName,
+  //         lName: preValue.lName,
+  //         email: value,
+  //       };
+  //     }
+  //   });
+  // }
+
+  // # Optimizing the above function code
+
   function handleContact(e) {
     const { name, value } = e.target;
 
     setContact(preValue => {
-      if (name === 'fName') {
-        return {
-          fName: value,
-          lName: preValue.lName,
-          email: preValue.email,
-        };
-      } else if (name === 'lName') {
-        return {
-          fName: preValue.fName,
-          lName: value,
-          email: preValue.email,
-        };
-      } else if (name === 'email') {
-        return {
-          fName: preValue.fName,
-          lName: preValue.lName,
-          email: value,
-        };
-      }
+      return {
+        ...preValue,
+        [name]: value,
+      };
     });
   }
-
   // # On form submission
 
   function handleClick(e) {
@@ -49,9 +61,24 @@ export default function ComplexStatePractice() {
       <h1>Hello {fullName}</h1>
       <p>{email}</p>
       <form onSubmit={handleClick}>
-        <input name="fName" placeholder="First Name" onChange={handleContact} />
-        <input name="lName" placeholder="Last Name" onChange={handleContact} />
-        <input name="email" placeholder="Email" onChange={handleContact} />
+        <input
+          name="fName"
+          placeholder="First Name"
+          onChange={handleContact}
+          value={contact.fName}
+        />
+        <input
+          name="lName"
+          placeholder="Last Name"
+          onChange={handleContact}
+          value={contact.lName}
+        />
+        <input
+          name="email"
+          placeholder="Email"
+          onChange={handleContact}
+          value={contact.email}
+        />
         <button>Submit</button>
       </form>
     </div>
