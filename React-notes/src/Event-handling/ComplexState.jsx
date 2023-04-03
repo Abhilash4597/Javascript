@@ -2,21 +2,53 @@ import React, { useState } from 'react';
 import './HandleEvent.css';
 
 export default function ComplexState() {
-  const [fname, setFname] = useState('');
-  const [lname, setLname] = useState('');
+  // const [fname, setFname] = useState('');
+  // const [lname, setLname] = useState('');
   const [mainText, setMainText] = useState('');
+  const [fullName, setFullName] = useState({
+    fname: '',
+    lname: '',
+  });
 
-  function handleChangeFname(e) {
-    setFname(e.target.value);
-  }
+  function handleFullName(e) {
+    // const inputValue = e.target.value;
+    // const inputName = e.target.name;
 
-  function handleChangeLname(e) {
-    setLname(e.target.value);
+    // function handleChangeFname(e) {
+    //   setFname(e.target.value);
+    // }
+
+    // function handleChangeLname(e) {
+    //   setLname(e.target.value);
+    // }
+
+    // function handleClick(e) {
+    //   e.preventDefault();
+    //   setMainText(fname +' '+ lname)
+    // }
+    // console.log(fullName.fname);
+
+    // # Effective solution
+    const { value, name } = e.target;
+
+    setFullName(preValue => {
+      if (name === 'fname') {
+        return {
+          fname: value,
+          lname: preValue.lname,
+        };
+      } else if (name === 'lname') {
+        return {
+          fname: preValue.fname,
+          lname: value,
+        };
+      }
+    });
   }
 
   function handleClick(e) {
     e.preventDefault();
-    setMainText(fname +' '+ lname)
+    setMainText(fullName.fname +' '+ fullName.lname)
   }
 
   return (
@@ -26,16 +58,16 @@ export default function ComplexState() {
       </h1>
       <form onSubmit={handleClick}>
         <input
-          name="fName"
+          name="fname"
           placeholder="First Name"
-          onChange={handleChangeFname}
-          value={fname}
+          onChange={handleFullName}
+          value={fullName.fname}
         />
         <input
-          name="lName"
+          name="lname"
           placeholder="Last Name"
-          onChange={handleChangeLname}
-          value={lname}
+          onChange={handleFullName}
+          value={fullName.lname}
         />
         <button>Submit</button>
       </form>
