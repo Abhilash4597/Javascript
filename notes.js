@@ -389,15 +389,23 @@
 //   { name: 'dog', sound: 'woof' },
 // ];
 
-//? Destructuring Arrays
+//? Arrays Destructuring
 
 //* const [cat, dog] = animals;
 //* console.log(cat);
 
-//? Destructuring Objects
+//Todo eg:- const [a, b] = ['Hello', 'Abhilash'];
+//  console.log(a) ==> Hello
+//  console.log(b) ==> Abhilash
+
+//? Objects Destructuring
 
 //* const { name, sound } = cat;
 //* const { name: catName, sound: catSound } = cat;
 //* const { name = "Fluffy", sound = "Purr" } = cat;
 //* const { feedingRequirements: {food, water} } = cat;
 //* console.log(food);
+
+// Todo eg:- const { name } = { name: 'Abhilash', age: 28 };
+// console.log(name) ==> Abhilash
+// console.log(age) ==> Undefined
