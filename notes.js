@@ -334,7 +334,7 @@
 //* all the variables and function we can access inside the block are know as block scope.
 
 // console.log("Hello, World!");
-// var a = 10; 
+// var a = 10;
 // {
 //    var a = 100;
 //    let b = 20;
@@ -345,16 +345,16 @@
 //  }
 //   console.log(a);   // 100
 //   console.log(b);   // refrence Error i.e b is not define
-//   console.log(c);     // Error i.e c is not define 
+//   console.log(c);     // Error i.e c is not define
 
 //? why this is happening 🤔?
 //* because let and const are having block scope i.e we can't access outside the currly brackect "{}"
 
 //todo:- NOTE:- here a is assign as 10 but after it goes to line no 263 is become 100 and after completing the backet then also a is 100
-      //todo:-  why??? because a is assign as global variable that can access anywhere in code.
+//todo:-  why??? because a is assign as global variable that can access anywhere in code.
 
 //? what is shadowing in js ?
-//* In programming, shadowing occurs when a variable declared in a certain scope (e.g. a local variable) has the same name as a 
+//* In programming, shadowing occurs when a variable declared in a certain scope (e.g. a local variable) has the same name as a
 //* variable in an outer scope(e.g. a global variable). When this happens, the outer variable is said to be shadowed by the inner variable.
 
 // Example:
@@ -375,18 +375,17 @@
 
 // -------------------------------------what are BLOCK😵 and SHADOWING🤔 in js-----------------------------------------------
 
-
 // # Destructuring
 
 // const animals = [
-  //   {
-    //     name: 'cat',
-    //     sound: 'meow',
-    //     feedingRequirements: {
-      //       food: 2,
-      //       water: 3,
-      //     },
-      //   },
+//   {
+//     name: 'cat',
+//     sound: 'meow',
+//     feedingRequirements: {
+//       food: 2,
+//       water: 3,
+//     },
+//   },
 //   { name: 'dog', sound: 'woof' },
 // ];
 
@@ -394,7 +393,6 @@
 
 //* const [cat, dog] = animals;
 //* console.log(cat);
-
 
 //? Destructuring Objects
 
