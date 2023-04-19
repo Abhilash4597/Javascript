@@ -409,3 +409,6 @@
 // Todo eg:- const { name } = { name: 'Abhilash', age: 28 };
 // console.log(name) ==> Abhilash
 // console.log(age) ==> Undefined
+
+// -------------------------------------what are BLOCK😵 and SHADOWING🤔 in js-----------------------------------------------
+
