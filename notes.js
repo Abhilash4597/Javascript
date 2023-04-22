@@ -416,7 +416,7 @@
 
 //? What is Closures?
 //* functions bundled together with its lexical environment is called Clousers.
-                          //  OR
+//  OR
 //* A function which is bind together with its lecical environment is called Clousers.
 
 // Example:-
@@ -428,11 +428,11 @@
 //    y();
 //  }
 //  x();
- ///the output is 7 the function y is lecicaly bundel with function x.
- 
- //  function x() {
-   //    var a= 17;
-   //    function y() {
+///the output is 7 the function y is lecicaly bundel with function x.
+
+//  function x() {
+//    var a= 17;
+//    function y() {
 //      console.log(a);
 //    }
 //    return y;
@@ -443,9 +443,9 @@
 //the output is 17 now in this case the fun x is stored inside variable z and then called that function
 
 //  function x() {
-  //    var a = 23;
-  //    function y() {
-    //      console.log(a);
+//    var a = 23;
+//    function y() {
+//      console.log(a);
 //    }
 //    a= 100;
 //    return y;
@@ -456,15 +456,15 @@
 //the output is 100
 
 // function z() {
-  //   var b = 300;
-  //   function x(){
-    //     var a = 15;
-    //     function y() {
-      //       console.log(a,b);
-      //     }
-      //     y();
-      //   }
-      //   x();
+//   var b = 300;
+//   function x(){
+//     var a = 15;
+//     function y() {
+//       console.log(a,b);
+//     }
+//     y();
+//   }
+//   x();
 // }
 // z();
 // the output is 15 and 300
