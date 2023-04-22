@@ -412,3 +412,69 @@
 
 // -------------------------------------what are BLOCK😵 and SHADOWING🤔 in js-----------------------------------------------
 
+// ----------------------------------------------------Closures ----------------------------------------------------------------
+
+//? What is Closures?
+//* functions bundled together with its lexical environment is called Clousers.
+                          //  OR
+//* A function which is bind together with its lecical environment is called Clousers.
+
+// Example:-
+//  function x() {
+//    var a= 7;
+//    function y() {
+//      console.log(a);
+//    }
+//    y();
+//  }
+//  x();
+ ///the output is 7 the function y is lecicaly bundel with function x.
+ 
+ //  function x() {
+   //    var a= 17;
+   //    function y() {
+//      console.log(a);
+//    }
+//    return y;
+//  }
+//  var z = x();
+//  console.log(z)
+//  z()
+//the output is 17 now in this case the fun x is stored inside variable z and then called that function
+
+//  function x() {
+  //    var a = 23;
+  //    function y() {
+    //      console.log(a);
+//    }
+//    a= 100;
+//    return y;
+//  }
+//  var z = x();
+//  console.log(z);
+//  z()
+//the output is 100
+
+// function z() {
+  //   var b = 300;
+  //   function x(){
+    //     var a = 15;
+    //     function y() {
+      //       console.log(a,b);
+      //     }
+      //     y();
+      //   }
+      //   x();
+// }
+// z();
+// the output is 15 and 300
+
+// **** Advantages of Closures *****
+//? - Module Design Pattern
+//? - Currying
+//? - Function like once
+//? - maintaining state in async world
+//? - setTimeouts
+//? - Iterators
+
+// ----------------------------------------------------Closures ----------------------------------------------------------------
