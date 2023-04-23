@@ -484,15 +484,15 @@
 // ? 1.what is the output of following que???
 
 // * function x() {
-  // *     for(var i =1;i<=5;i++) {
-    // *         setTimeout(function() {
-      // *             console.log(i)
-      // *         },i*1000)
-      // *     }
-      // * }
-      // * x();
-      
-      //output
+// *     for(var i =1;i<=5;i++) {
+// *         setTimeout(function() {
+// *             console.log(i)
+// *         },i*1000)
+// *     }
+// * }
+// * x();
+
+//output
 // 6    1sec
 // 6    2sec
 // 6    3sec
@@ -502,9 +502,9 @@
 //? 2.guess the output ???
 
 //* function x() {
-  //*     for(let i =1;i<=5;i++) {
-    //*         setTimeout(function() {
-      //*             console.log(i)
+//*     for(let i =1;i<=5;i++) {
+//*         setTimeout(function() {
+//*             console.log(i)
 //*         },i*1000)
 //*     }
 //* }
@@ -527,10 +527,10 @@
 //? but how????
 
 //* function x() {
-  //*  for(var i =1;i<=5;i++){
-    //*     function closed(i) {
-      //*         setTimeout(function() {
-        //*             console.log(i);
+//*  for(var i =1;i<=5;i++){
+//*     function closed(i) {
+//*         setTimeout(function() {
+//*             console.log(i);
 //*         },i*1000);
 //*     }
 //*     closed(i)
