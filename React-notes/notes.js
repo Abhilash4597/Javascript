@@ -38,21 +38,21 @@
 //*  Performance-React allows us to measure the performance of our apps using the Profiler in the React DevTools.
 
 //? 3. Unidirectional flow in React ?
-  //  It is nothing but One-way Data Binding that describes a one-way data flow where the data flows from the parent to the child component, it is known as
-  //  this is known as unidirectional flow of data.
-   
+//*  It is nothing but One-way Data Binding that describes a one-way data flow where the data flows from the parent to the child component, it is known as
+//*  this is known as unidirectional flow of data.
+
 //? 4. What is Virtual DOM ?
-  //  The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”, representation of a UI is kept in memory
-  //  and synced with the “real” DOM by a library such as ReactDOM.
-  //  the term “virtual DOM” is usually associated with React elements 
+//*  The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”, representation of a UI is kept in memory
+//*  and synced with the “real” DOM by a library such as ReactDOM.
+//*  the term “virtual DOM” is usually associated with React elements
 
 //? 6. Difference between Real DOM and Virtual DOM ?
-  //  see the half ans is above
-  //  Real DOM                                                          Virtual DOM
-  //  DOM manipulation is very expensive                                DOM manipulation is very easy
-  //  There is too much memory wastage                                  No memory wastage
-   
+//*  see the half ans is above
+//*  Real DOM                                                          Virtual DOM
+//*  DOM manipulation is very expensive                                DOM manipulation is very easy
+//*  There is too much memory wastage                                  No memory wastage
+
 //? 7. What is JSX ?
-//    JSX -JSX stands for JavaScript XML.
-//         JSX allows us to write HTML in React.
-//         JSX makes it easier to write and add HTML in React.
+//*    JSX -JSX stands for JavaScript XML.
+//*         JSX allows us to write HTML in React.
+//*         JSX makes it easier to write and add HTML in React.
