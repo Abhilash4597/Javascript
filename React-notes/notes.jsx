@@ -92,7 +92,41 @@
 //* It is not recommend using indexes for keys if the order of items may change. This can negatively
 //* impact performance and may cause issues with component state.
 
+// 16. What are synthetic events ?
+//     Synthetic events are that ReactJS reuses these events objects, by pooling them, which increase the performance
+//     the synthetic events are onClick(), onBlur() and onChange(). 
+    
+// 17. What are controlled components ?
+//     In React, Controlled Components are those in which form's data is handled by the component's state. It takes
+//     its current value through props and makes changes through callbacks like onClick,onChange, etc.
+    
+// 18. What are uncontrolled components ?
+//     Uncontrolled Components are the components that are not controlled by the React state and are
+//     handled by the DOM (Document Object Model).
+     
+// 19. What is the difference between the two  controlled components and uncontrolled components?
+//     In a controlled component, form data is handled by a React component. The alternative is uncontrolled components,
+//     where form data is handled by the DOM itself.
+    
+// 20. What are props in react ?
+//     props stands for properties.
+//     Props are arguments passed into React components. Props are passed to components via HTML attributes. 
+//     Ex- const Hello = (props) => {
+//             return (
+//                      <div>
+//                           <h2>Student {props.number}</h2>
+//                      </div>
+//                    )
+//         }
 
+//         function App() {
+//           return (
+//                   <div>
+//                        <Hello number="1"/>
+//                   </div>
+//           )
+//         }
+//         export default App;
 
 
 
