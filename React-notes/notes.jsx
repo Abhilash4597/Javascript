@@ -129,12 +129,12 @@
 //         export default App;
 
 //? 21. What is the difference between props and state in react ?
-//*      props get passed to the component (similar to function parameters) whereas state is managed within 
+//*      props get passed to the component (similar to function parameters) whereas state is managed within
 //*      the component (similar to variables declared within a function).
-     
+
 //? 22. What are the different lifecycle methods ?
 //*     There are three categories of lifecycle methods: mounting, updating, and unmounting.
-    
+
 //?     Mounting:-
 //*     Mounting means putting elements into the DOM.
 //*     React has four built-in methods that gets called, in this order, when mounting a component:
@@ -142,42 +142,36 @@
 //*     getDerivedStateFromProps()
 //*     render()
 //*     componentDidMount()
-    
+
 //?     Unmounting:-
 //*     when a component is removed from the DOM is called unmounting
 //*     one built-in method that gets called when a component is unmounted:
 //*     componentWillUnmount()
-    
+
 //?     updating:-
 //*     A component is updated whenever there is a change in the component's state or props.
-//*     it has five built-in methods 
+//*     it has five built-in methods
 //*     getDerivedStateFromProps()
 //*     shouldComponentUpdate()
 //*     render()
 //*     getSnapshotBeforeUpdate()
 //*     componentDidUpdate()
-    
-//? 23. What are side effects in react ? 
+
+//? 23. What are side effects in react ?
 // *   side effect is a part of useEffect Hooks
 // *   The useEffect Hook allows you to perform side effects in your components.
 // *   Some examples of side effects are: fetching data, directly updating the DOM, and timers.
-    
+
 //? 24. What is the useEffect hook ?
 //*    The useEffect Hook allow us to perform side effects in your components.
 //*    Some examples of side effects are: fetching data, directly updating the DOM, and timers.
 //*    useEffect accepts two arguments. The second argument is optional.
 //*    useEffect(<function>, <dependency>)
 
-
 //? 25. How can we use useEffect hook to implement the lifecycle methods ?
 //*     Mounting phase with componentDidMount.
 //*     Updating phase with shouldComponentUpdate and componentDidUpdate.
 //*     Unmounting phase with componentWillUnmount.
-
-
-
-
-
 
 
 
