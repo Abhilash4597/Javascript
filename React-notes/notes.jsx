@@ -173,26 +173,26 @@
 //*     Updating phase with shouldComponentUpdate and componentDidUpdate.
 //*     Unmounting phase with componentWillUnmount.
 
-// 26. What is useRef hook ?
-//     It can be used to store a mutable value that does not cause a re-render when updated.
-//     It can be used to access a DOM element directly.
+//? 26. What is useRef hook ?
+//*     It can be used to store a mutable value that does not cause a re-render when updated.
+//*     It can be used to access a DOM element directly.
 
-// 27. Explain some use cases for useRef hook ?
-//     A very common use case for using useRef is for when, suppose we click on a button, and then on its 
-//     click we want an input to come into focus. To do this, we would need to access the DOM element of 
-//     input and then call its function focus() to focus the input
+//? 27. Explain some use cases for useRef hook ?
+//*     A very common use case for using useRef is for when, suppose we click on a button, and then on its 
+//*    click we want an input to come into focus. To do this, we would need to access the DOM element of 
+//*    input and then call its function focus() to focus the input
 
-// 28. What are Higher Order Components ?
-//     A higher-order component (HOC) is an advanced technique in React for reusing component logic.
-//     a higher-order component is a function that takes a component and returns a new component.
+//? 28. What are Higher Order Components ?
+//*     A higher-order component (HOC) is an advanced technique in React for reusing component logic.
+//*     a higher-order component is a function that takes a component and returns a new component.
 
-// 29. What is a Pure component ?
-//      A function is said to be pure if the return value is determined by its input values only 
-//      and the return value is always the same for the same input values. 
+//? 29. What is a Pure component ?
+//*      A function is said to be pure if the return value is determined by its input values only 
+//*      and the return value is always the same for the same input values. 
      
-// 30. What is prop drilling ?
-//     Prop drilling is a situation where data is passed from one component through multiple interdependent 
-//     components until we get to the component where the data is needed
+//? 30. What is prop drilling ?
+//*     Prop drilling is a situation where data is passed from one component through multiple interdependent 
+//*     components until we get to the component where the data is needed
 
 
 
