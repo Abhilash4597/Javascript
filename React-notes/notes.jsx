@@ -195,28 +195,25 @@
 //*     components until we get to the component where the data is needed
 
 //? 31. How can we solve the problem of prop drilling ?
-//*     The React context API is a fast way of avoiding prop drilling 
-    
+//*     The React context API is a fast way of avoiding prop drilling
+
 //? 32. What is Context API ? How it can be used to solve prop drilling ?
 //*     The Context API helps share data between components which we can't easily share with props,
-//*     The React Context API provides a way to pass data through multiple nested levels of components 
+//*     The React Context API provides a way to pass data through multiple nested levels of components
 //*     without having to manually pass that data to each level
-    
+
 //? 33. What are error boundaries ?
-//*     Error boundaries are React components that catch JavaScript errors anywhere in their child component tree, 
+//*     Error boundaries are React components that catch JavaScript errors anywhere in their child component tree,
 //*     log those errors, and display a fallback UI instead of the component tree that crashed
 
-//? 34. useCallback hook 
+//? 34. useCallback hook
 //*     The React useCallback Hook returns a memoized callback function.
 //*     it only runs when one of its dependencies update.so in this way it can improve performance.
-    
+
 //? 35. useMemo hook?
 //*     The React useMemo Hook returns a memoized value.
 //*     The useMemo Hook only runs when one of its dependencies update.
 //*     This can improve performance.
-
-
-
 
 
 
