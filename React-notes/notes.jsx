@@ -178,8 +178,8 @@
 //*     It can be used to access a DOM element directly.
 
 //? 27. Explain some use cases for useRef hook ?
-//*     A very common use case for using useRef is for when, suppose we click on a button, and then on its 
-//*    click we want an input to come into focus. To do this, we would need to access the DOM element of 
+//*     A very common use case for using useRef is for when, suppose we click on a button, and then on its
+//*    click we want an input to come into focus. To do this, we would need to access the DOM element of
 //*    input and then call its function focus() to focus the input
 
 //? 28. What are Higher Order Components ?
@@ -187,12 +187,36 @@
 //*     a higher-order component is a function that takes a component and returns a new component.
 
 //? 29. What is a Pure component ?
-//*      A function is said to be pure if the return value is determined by its input values only 
-//*      and the return value is always the same for the same input values. 
-     
+//*      A function is said to be pure if the return value is determined by its input values only
+//*      and the return value is always the same for the same input values.
+
 //? 30. What is prop drilling ?
-//*     Prop drilling is a situation where data is passed from one component through multiple interdependent 
+//*     Prop drilling is a situation where data is passed from one component through multiple interdependent
 //*     components until we get to the component where the data is needed
+
+//? 31. How can we solve the problem of prop drilling ?
+//*     The React context API is a fast way of avoiding prop drilling 
+    
+//? 32. What is Context API ? How it can be used to solve prop drilling ?
+//*     The Context API helps share data between components which we can't easily share with props,
+//*     The React Context API provides a way to pass data through multiple nested levels of components 
+//*     without having to manually pass that data to each level
+    
+//? 33. What are error boundaries ?
+//*     Error boundaries are React components that catch JavaScript errors anywhere in their child component tree, 
+//*     log those errors, and display a fallback UI instead of the component tree that crashed
+
+//? 34. useCallback hook 
+//*     The React useCallback Hook returns a memoized callback function.
+//*     it only runs when one of its dependencies update.so in this way it can improve performance.
+    
+//? 35. useMemo hook?
+//*     The React useMemo Hook returns a memoized value.
+//*     The useMemo Hook only runs when one of its dependencies update.
+//*     This can improve performance.
+
+
+
 
 
 
