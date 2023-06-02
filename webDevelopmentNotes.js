@@ -12,16 +12,17 @@
 //* It is in a read-only type of format like (Blogs/Wikipedia).
 //* In this user interaction is near minimum or negligible.
 
-// ? WEB APPLICATIONS :-
+// ? WEB APP :-
 //* It is a Dynamic kind of content.
 //* In this user interaction is at maximum level.
 //todo :- 1) FrontEnd/ UI (User Interface) => HTML/CSS/Javascript.
-//todo :- 2) BackEnd => Nodejs => It is also called as Brain of Web Application.
+//todo :- 2) BackEnd => Nodejs => It is also called as Brain of Web App.
 //todo :- 3) DB (DataBase) Layer => MongoDB(NoSQL/SQL).
 //# All the above Three points together are known as Full Stack Web Development.
 
 // ? NETWORK :-
 // * Bunch of resources like(computer/printer/mobile etc) are connected with each other or can be connected with each other and the system where all this resources exist in a connected form is known as a NETWORK.
+// * They all can be connected in Wired form or Wireless form.
 
 //todo :- 1) LAN (Local Area Network) :-
 // * A local area network(LAN) is a collection of devices connected together in one physical location, such as a building, office, or home.
@@ -37,6 +38,6 @@
 // * A WAN is essentially a network of networks.
 // * A wide area network (WAN) is a geographically distributed private telecommunications network that interconnects multiple local area networks (LANs).
 
-
-
-
+// ? INTERNET :-
+// * It is a Global System or It is a Network of Network.
+// * In internet Billions of devices or Network of Networks are Interconnected with each other, Exists is known as Internet.
