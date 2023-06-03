@@ -41,3 +41,19 @@
 // ? INTERNET :-
 // * It is a Global System or It is a Network of Network.
 // * In internet Billions of devices or Network of Networks are Interconnected with each other, Exists is known as Internet.
+
+// ? BROWSER :-
+// * A browser, is a software application that allows users to access and view information on the World Wide Web (WWW). It provides an interface for users to interact with web pages, websites, and web-based applications.
+// * Browsers retrieve and display content from websites, including text, images, videos, and other media files, by interpreting HTML (Hypertext Markup Language) and executing scripts such as JavaScript.
+
+// ? BROWSER ENGINE :-
+// * A browser engine, also known as a rendering engine or layout engine.
+// * It is a core component of a web browser.
+// * It is responsible for interpreting web page content, including HTML, CSS (Cascading Style Sheets), and JavaScript, and rendering it into a visual representation that can be displayed to the user.
+
+// * Different browsers employ different browser engines.
+//todo:- For example,
+// # Google Chrome uses the Blink engine
+// # Mozilla Firefox uses the Gecko engine
+// # Safari uses the WebKit engine.
+// * Each engine has its own set of features, performance characteristics, and optimizations, which can impact how web pages are rendered and the overall browsing experience.
