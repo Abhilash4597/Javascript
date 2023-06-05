@@ -1,18 +1,21 @@
 // ! WEB DEVELOPMENT BY LOVE BABBAR :-
 
-//? WEB :-
+//?______________________________________________ WEB :-
 // * Web is a system where our Interconnected Document or Resources or Media files Exist and all this can be accessed using Internet.
 
-//? WEB DEVELOPMENT :-
+
+//?______________________________________________ WEB DEVELOPMENT :-
 //* It is a process by using which we can create WEBSITES and WEB APPLICATIONS.
 //* Selection of Websites or Web Application is totally depends on our use case.
 
-// ? WEBSITES :-
+
+//?______________________________________________ WEBSITES :-
 //* It is a static kind of content.
 //* It is in a read-only type of format like (Blogs/Wikipedia).
 //* In this user interaction is near minimum or negligible.
 
-// ? WEB APP :-
+
+//?______________________________________________ WEB APP :-
 //* It is a Dynamic kind of content.
 //* In this user interaction is at maximum level.
 //todo :- 1) FrontEnd/ UI (User Interface) => HTML/CSS/Javascript.
@@ -20,7 +23,8 @@
 //todo :- 3) DB (DataBase) Layer => MongoDB(NoSQL/SQL).
 //# All the above Three points together are known as Full Stack Web Development.
 
-// ? NETWORK :-
+
+//?______________________________________________ NETWORK :-
 // * Bunch of resources like(computer/printer/mobile etc) are connected with each other or can be connected with each other and the system where all this resources exist in a connected form is known as a NETWORK.
 // * They all can be connected in Wired form or Wireless form.
 
@@ -38,15 +42,18 @@
 // * A WAN is essentially a network of networks.
 // * A wide area network (WAN) is a geographically distributed private telecommunications network that interconnects multiple local area networks (LANs).
 
-// ? INTERNET :-
+
+//?______________________________________________ INTERNET :-
 // * It is a Global System or It is a Network of Network.
 // * In internet Billions of devices or Network of Networks are Interconnected with each other, Exists is known as Internet.
 
-// ? BROWSER :-
+
+//?______________________________________________ BROWSER :-
 // * A browser, is a software application that allows users to access and view information on the World Wide Web (WWW). It provides an interface for users to interact with web pages, websites, and web-based applications.
 // * Browsers retrieve and display content from websites, including text, images, videos, and other media files, by interpreting HTML (Hypertext Markup Language) and executing scripts such as JavaScript.
 
-// ? BROWSER ENGINE :-
+
+//?______________________________________________ BROWSER ENGINE :-
 // * A browser engine, also known as a rendering engine or layout engine.
 // * It is a core component of a web browser.
 // * It is responsible for interpreting web page content, including HTML, CSS (Cascading Style Sheets), and JavaScript, and rendering it into a visual representation that can be displayed to the user.
@@ -57,3 +64,30 @@
 // # Mozilla Firefox uses the Gecko engine
 // # Safari uses the WebKit engine.
 // * Each engine has its own set of features, performance characteristics, and optimizations, which can impact how web pages are rendered and the overall browsing experience.
+
+
+//?______________________________________________
+
+
+
+
+
+
+
+
+
+
+//?______________________________________________
+//?______________________________________________
+//?______________________________________________
+//?______________________________________________
+//?______________________________________________
+//?______________________________________________
+//?______________________________________________
+//?______________________________________________
+//?______________________________________________
+//?______________________________________________
+//?______________________________________________
+//?______________________________________________
+//?______________________________________________
+//?______________________________________________
