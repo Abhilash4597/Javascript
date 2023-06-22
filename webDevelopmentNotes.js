@@ -64,5 +64,3 @@
 // # Mozilla Firefox uses the Gecko engine
 // # Safari uses the WebKit engine.
 // * Each engine has its own set of features, performance characteristics, and optimizations, which can impact how web pages are rendered and the overall browsing experience.
-
-
