@@ -327,3 +327,24 @@ function App() {
 // -------------------------------------------------------------------------------------------------------------
 
 // # State in React
+
+
+
+
+
+
+
+
+
+
+// ? What is Library and Frameworks ?
+// * Collection of Scripts is known as Library.
+// * Collection of Libraries is known as Frameworks.
+
+// ? What is AJAX ?
+// * It is a Asyncronous Javascript and XML.
+// * It is concept of getting the data without refreshing the data is called AJAX
+
+// # React is Javascript Library.
+// # React is a Javascript Library to building User Interface.
+// # React is a client side Javascript Library.
