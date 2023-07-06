@@ -350,3 +350,4 @@
 // # React is Javascript Library.
 // # React is a Javascript Library to building User Interface.
 // # React is a client side Javascript Library.
+// # React can be used to build single-page applications (SPAs) or can be integrated into existing projects as a view layer.
