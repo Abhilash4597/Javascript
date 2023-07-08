@@ -31,6 +31,7 @@ app.listen(3000, () => {
 //* res.send  is used to send the direct msg
 
 //* res.sendFile  is used to send the whole file which we want to send to the browser
+
 //? eg :-  res.sendFile(index.html)  this will find the file in its folder and show to user but this will work for local system only so
 
 //* res.sendFile(__dirname + "/index.html")  using like this it will show the whole path correctly anywhere or in all servers and clouds
