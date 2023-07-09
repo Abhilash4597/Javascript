@@ -31,7 +31,7 @@
 -- ! SELECT Syntax :-
 
 -- ? SELECT column1, column2, ... FROM table_name;
--- *                                          Here, column1, column2, ... are the field names of the table you want to select data from.
+-- *                      Here, column1, column2, ... are the field names of the table you want to select data from.
 
 -- todo- If you want to select all the fields available in the table, use the following syntax:
 
