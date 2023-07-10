@@ -419,7 +419,8 @@
 //  OR
 //* A function which is bind together with its lecical environment is called Clousers.
 
-// Example:-
+//todo:-
+// Example: -
 //  function x() {
 //    var a= 7;
 //    function y() {
