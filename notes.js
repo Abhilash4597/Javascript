@@ -21,17 +21,6 @@
 // Todo:- What is HTML ?
 // * => HTML stands for HyperText Markup Language. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript.
 
-// Todo:-
-// * =>
-
-// Todo:-
-// * =>
-
-// Todo:-
-// * =>
-
-// Todo:-
-// * =>
 
 // ! NOTE
 // * if want to right the code in web page or browser and see the output than follow the below step
