@@ -220,14 +220,15 @@
 // 38. Is the Shadow DOM the same as the Virtual DOM?
 //     No, they are different. The Shadow DOM is a browser technology designed primarily for scoping variables and CSS in web components.
 //     The virtual DOM is a concept implemented by libraries in JavaScript on top of browser APIs.
-// . What is React?
+
+// 1. What is React?
 // 2. Core features of React?
 // 3. What is Virtual Dom
 // 4. What is Real Dom
 // 5. How React handles updates & rendering?
 // 6. What is JSX ?
 // 7. Can browser understand JSX?
-// 8.What are syntheticEvent in React?
+// 8. What are syntheticEvent in React?
 // 9. How does react handles event handling & how it's different from event handling in JS?
 // 10. What is ComponentWillMount() method in React?
 // 11. What is use effect Hook ?
