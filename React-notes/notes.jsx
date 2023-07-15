@@ -215,14 +215,6 @@
 //*     The useMemo Hook only runs when one of its dependencies update.
 //*     This can improve performance.
 
-// 36. What is React.memo ?
-// 37. State management
-// 38. Is the Shadow DOM the same as the Virtual DOM?
-//     No, they are different. The Shadow DOM is a browser technology designed primarily for scoping variables and CSS in web components.
-//     The virtual DOM is a concept implemented by libraries in JavaScript on top of browser APIs.
-
-
-
 
 
 
