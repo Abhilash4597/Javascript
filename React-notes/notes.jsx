@@ -224,6 +224,22 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // # Inline styling in react :-
 
 // # Inline Styling
@@ -316,6 +332,27 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //! REACT BY ::==> {***************** VASANT SIR *****************}
 
 // (2nd september)
@@ -332,6 +369,14 @@
 // # React is a Javascript Library to building User Interface.
 // # React is a client side Javascript Library.
 // # React can be used to build single-page applications (SPAs) or can be integrated into existing projects as a view layer.
+
+
+
+
+
+
+
+
 
 
 
@@ -408,3 +453,65 @@
 // This will open a new tab in your default web browser, displaying the React app. You have now successfully created your first React app!
 
 // In the next steps, we'll explore the project structure and learn how to create and use components, states, and props. Let me know when you're ready to proceed!
+
+// # With vite
+
+// Step 1: Install Vite
+// Make sure you have Node.js and npm installed on your computer, as Vite requires them. If you don't have Vite installed globally, you can install it using npm:
+
+// lua
+// Copy code
+// npm install -g create-vite
+// Step 2: Create a New React App
+// To create a new React app using Vite, open your terminal and run the following command:
+
+// lua
+// Copy code
+// create-vite my-react-app --template react
+// Replace "my-react-app" with your preferred project name.
+
+// Step 3: Navigate to the Project Directory
+// After the Vite setup is complete, navigate to the project directory:
+
+// bash
+// Copy code
+// cd my-react-app
+// Step 4: Start the Development Server
+// In the project directory, start the development server:
+
+// arduino
+// Copy code
+// npm run dev
+// This command will start the development server, and you will see a message indicating that the server is running and the local development URL (usually http://localhost:3000).
+
+// Step 5: Explore the Project Structure
+// The Vite setup will generate the project structure for you. You'll find the main React component in the src/App.jsx file. This file contains the starting point for your React app.
+
+// Step 6: Edit the React Component
+// Open src/App.jsx in your code editor and edit the component to display a simple greeting message:
+
+// jsx
+// Copy code
+// import React from 'react';
+
+// function App() {
+//   return (
+//     <div>
+//       <h1>Hello, Vite + React!</h1>
+//     </div>
+//   );
+// }
+
+// export default App;
+// Step 7: Save and See the Changes
+// Save the file, and the development server will automatically update. Go to your web browser and open the URL http://localhost:3000. You should now see the greeting message displayed on the webpage.
+
+// Step 8: Continue Building Your React App
+// You can now continue building your React app using Vite. You can add new components, manage state, and use React features just as you would with any React application. Vite's hot module replacement will automatically update the webpage as you make changes, making the development process efficient and seamless.
+
+// Remember that Vite provides a fast development experience, but when you're ready for production, you'll need to build your app for deployment. To do that, you can use the following command:
+
+// arduino
+// Copy code
+// npm run build
+// This command will generate an optimized production build of your React app in the dist folder.
