@@ -260,8 +260,7 @@
 
 //   return (
 //     <div className="App">
-//       <p style={customCSS}>Created by {name}</p> //* make a obj of styling ad
-//       use it like this.
+//       <p style={customCSS}>Created by {name}</p> //* make a obj of styling and use it like this.
 //       <p style={{ color: 'green' }}>Copyright {year}</p> //* OR use like this
 //       directly
 //     </div>
