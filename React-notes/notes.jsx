@@ -1,4 +1,5 @@
-// # React interview question....
+// # React interview questions....
+
 //? 1. What is React ?
 //*  A JavaScript library created by Facebook for building user interfaces
 //*  Its aim is to allow developers to easily create fast user interfaces for websites and applications
