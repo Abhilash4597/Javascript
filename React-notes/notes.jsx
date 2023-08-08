@@ -15,6 +15,7 @@
 //?             Class Components:
 //?             A class component must include the extends React.Component statement.
 //?             The component also requires a render() method, this method returns HTML.
+
 //todo :-->
 // Ex:- class Car extends React.Component {
 //      render() {
@@ -23,6 +24,7 @@
 //  }
 //? Function Components:
 //* Function components can be written using much less code, are easier to understand
+
 //todo :-->
 // Ex:- function Car() {
 //        return <h2>Hi, I am a Car!</h2>;
@@ -70,6 +72,7 @@
 
 //? 10. Explain useState hook ?
 //* The useState hook is a special function that takes the initial state as an argument and returns an array of two entries.
+
 //todo :-->
 // Ex:- import { useState } from "react";
 //      function FavoriteColor() {
@@ -115,6 +118,7 @@
 //? 20. What are props in react ?
 //*     props stands for properties.
 //*     Props are arguments passed into React components. Props are passed to components via HTML attributes.
+
 //todo :-->
 //     Ex - const Hello = (props) => {
 //             return (
